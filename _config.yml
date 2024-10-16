@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "JIANG Cong"
   pronouns         : # example: "she/her"  
   bio              : ""
@@ -143,13 +143,13 @@ yandex_site_verification :
 #  name                   : # If the user or organization name differs from the site's name
 #  links: # An array of links to social media profiles
 
-
+'''
 # Analytics
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
-
+'''
 
 # Reading Files
 include:
@@ -209,7 +209,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
+'''
 # These settings control the types of collections used by the template
 collections:
   teaching:
@@ -224,7 +224,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+'''
 
 # These settings control how pages and collections are included in the site
 defaults:
